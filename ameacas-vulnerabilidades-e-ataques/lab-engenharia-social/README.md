@@ -1,4 +1,4 @@
-#Exploração de Técnicas de Engenharia Social
+# Lab 1.2.13 - Explorar Técnicas de Engenharia Social
 
 ## Descrição
 Análise prática e estudo detalhado sobre as principais técnicas de **Engenharia Social** (*hacking humano*), explorando como os invasores utilizam manipulação psicológica, engano e exploração de comportamentos para comprometer sistemas e obter dados confidenciais.
@@ -6,36 +6,45 @@ Análise prática e estudo detalhado sobre as principais técnicas de **Engenhar
 ## Objetivo
 Identificar, categorizar e compreender a mecânica de operação de ataques baseados no fator humano (virtuais e físicos) para propor medidas eficazes de prevenção, mitigação e conscientização em cibersegurança.
 
-## Contexto
+## Contexto & Recursos Utilizados
 Atividade prática realizada no curso **Segurança de Endpoint da Cisco (Networking Academy)**, integrada à preparação para a certificação **Cisco Certified Support Technician (CCST) Cybersecurity**.
 
+* **Ferramenta/Recurso Interativo:** Para a realização da simulação prática e resposta aos cenários do laboratório, foi utilizada a aplicação interativa [CSSIA Social Engineering Interactive](https://www.caeepnc.org/social_engineering/) promovida pelo *National Support Center for Systems Security and Information Assurance (CSSIA)*.
+
+---
+
 ## Passos Realizados
-1. **Análise de Técnicas Baseadas em Engenharia Social:**
-   * **Isca (Baiting):** Investigação de ofertas irrecusáveis (downloads gratuitos) ou mídias físicas (pendrives USB infectados) deixadas em locais públicos para atrair a curiosidade da vítima.
-   * **Navegação Bisbilhoteira (Shoulder Surfing):** Observação visual direta ou remota (via câmeras/celulares) para obtenção de PINs, senhas e dados confidenciais inseridos pelas vítimas.
-   * **Pré-texto (Pretexting):** Criação de cenários e identidades falsas (ex: suporte técnico, autoridade) para induzir a vítima a fornecer informações privilegiadas.
+
+1. **Análise de Cenários Interativos na Aplicação CSSIA:**
+   * **Isca (Baiting):** Análise da promessa falsa de ganhos e infecção por malware ao aceitar simulações com mídias físicas/downloads.
+   * **Navegação Bisbilhoteira (Shoulder Surfing):** Identificação do uso de câmeras/celulares para captura visual de logins, senhas e PINs digitados pela vítima.
+   * **Pré-texto (Pretexting):** Estudo de invasores personificando papéis de autoridade (cargo, nome, ID) para solicitar confirmação de dados confidenciais.
 
 2. **Estudo de Golpes e Disfarces Digitais e Físicos:**
-   * **Phishing, Spear Phishing e Caça à Baleia (Whaling):** Diferenciação entre campanhas massivas por e-mail/telefone (Phishing), ataques direcionados a indivíduos/empresas específicas (Spear Phishing) e focado em executivos de alto nível (Whaling).
-   * **Ransomware e Scareware:** Avaliação do uso de telas/mensagens alarmantes falsas (Scareware) e sequestro/criptografia de dados vitais exigindo resgate (Ransomware).
-   * **Mergulho no Lixo (Dumpster Diving):** Análise do risco da recuperação de papéis contendo credenciais ou dispositivos de armazenamento descartados incorretamente no lixo.
-   * **Falsificação de Identidade (Impersonation) e Farsas (Hoaxes):** Engano através do personificação de entidades oficiais ou disseminação de falsos alertas de vírus para causar pânico.
-   * **Caroninha / Traslado (Tailgating / Piggybacking):** Métodos de acesso físico não autorizado a instalações restritas seguindo funcionários autorizados.
+   * **Phishing, Spear Phishing e Caça à Baleia (Whaling):** Diferenciação entre e-mails massivos com avisos falsos de débitos/retiradas, ataques direcionados e focado em executivos (CFO/CEO).
+   * **Ransomware e Scareware:** Avaliação de táticas de extorsão via criptografia de arquivos e mensagens alarmantes.
+   * **Mergulho no Lixo (Dumpster Diving):** Riscos do descarte inadequado de papéis, credenciais e mídias físicas.
+   * **Falsificação de Identidade (Impersonation) e Farsas (Hoaxes):** Engano via falsos alertas de vírus e personificação de marcas ou colegas.
+   * **Caroninha / Traslado (Tailgating / Piggybacking):** Acesso físico indevido seguindo funcionários em áreas restritas.
 
-3. **Análise de Táticas de Manipulação Psicológica e Métodos Avançados:**
-   * **Ataques de Autoridade, Intimidação, Urgência e Escassez:** Exploração da tendência humana de obedecer ordens superiores, medo de sanções ou apressar decisões por limitação de tempo/estoque.
-   * **Consenso (Prova Social), Familiaridade e Confiança:** Uso do comportamento da maioria, clonagem de perfis conhecidos e construção de relacionamentos falsos para diminuir a guarda do alvo.
-   * **Ataque do Regador (Watering Hole) e Typosquatting:** Infecção de sites frequentemente visitados pela empresa e exploração de erros de digitação em URLs para redirecionamento malicioso.
-   * **Fraude da Fatura e Remoção de Adendo:** Envio de faturas e telas de login falsas e a remoção de tags de e-mails externos para simular comunicações internas legítimas.
+3. **Táticas Avançadas de Manipulação:**
+   * **Autoridade, Intimidação, Urgência e Escassez:** Exploração da obediência, medo de sanções e pressão de tempo/ofertas limitadas.
+   * **Consenso (Prova Social), Familiaridade e Confiança:**Uso da opinião da maioria, perfis clonados e criação de falsos relacionamentos.
+   * **Ataque do Regador (Watering Hole) e Typosquatting:** Infecção de sites frequentes da empresa e erros de digitação em URLs.
+   * **Fraude da Fatura e Remoção de Adendo:** Faturas falsas e alteração de marcadores de e-mails externos.
+
+---
 
 ## Resultado
-* **Vulnerabilidade Comportamental:** Confirmado que a curiosidade (Isca) e a ingenuidade em validar identidades (Pretexting/Impersonation) levam à infecção direta por malware e vazamento de credenciais.
-* **Ameaças Físicas e Visuais:** Verificada a facilidade com que credenciais são capturadas através de celulares (Shoulder Surfing) e o acesso indevido por portas mantidas abertas (Tailgating).
-* **Engano Técnico de Domínios:** Mapeado como a digitação incorreta de URLs (Typosquatting) e infecção de sites de rotina (Watering Hole) interceptam dados de usuários sem necessidade de invadir diretamente a rede da empresa.
+* **Vulnerabilidade Comportamental:** Confirmação de que o interesse por facilidades (Isca) ou a validação incorreta de identidades (Pretexting) causam infecção direta por malware e vazamento de credenciais.
+* **Ameaças Físicas e Visuais:** Validação de que credenciais e dados de acesso são facilmente capturados por lentes de dispositivos móveis (Shoulder Surfing) e acessos não autorizados por portas sem eclusa (Tailgating).
+* **Engano Técnico:** Mapeado como domínios parecidos (Typosquatting) e telas de login falsas são usados para interceptação de dados bancários e de acesso.
+
+---
 
 ## Aprendizados
-* **Fator Humano como Elo Frágil:** A infraestrutura técnica de segurança (firewalls, antivírus) perde eficácia se o usuário for induzido a entregar acessos ou executar arquivos maliciosos.
+* **Fator Humano como Elo Frágil:** A infraestrutura técnica (firewalls, antivírus) perde eficiência se o usuário for induzido a entregar acessos ou executar arquivos maliciosos.
 * **Medidas de Proteção Organizacional:**
   * **Conscientização:** Treinamentos contínuos contra Phishing, Engenharia Social e procedimentos de mesa limpa.
-  * **Controles Físicos:** Uso de bloqueadores de tela (películas de privacidade), fragmentadoras de papel para descarte e eclusas/Mantraps para evitar *Tailgating*.
+  * **Controles Físicos:** Uso de bloqueadores de tela (películas de privacidade), fragmentadoras de papel para descarte e eclusas (*Mantraps*) contra *Tailgating*.
   * **Controles Técnicos:** Implementação de Autenticação Multifator (MFA), filtros de e-mail e correções regulares de software.
