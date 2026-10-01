@@ -27,17 +27,17 @@ Atividade do Módulo **Protegendo redes** do curso **Segurança de Endpoint da C
 
 * **Etapa 2 - Item b (Endereço IP do Gateway Padrão):**
   * **Pergunta:** Qual é o endereço IP usado?
-  * **Resposta:** `192.168.0.1` *(ajuste conforme o IP retornado no seu ipconfig)*.
+  * **Resposta:** `192.168.100.1` *
 
 * **Etapa 2 - Item e (Configurações Básicas Sem Fio):**
   * **Pergunta:** Quais das bandas estão ativas?
-  * **Resposta:** 2.4 GHz e 5 GHz *(Ajustar conforme a interface do roteador)*.
+  * **Resposta:** 2,4 GHz, 5 Ghz-1 e 5GHz-2 **.
   * **Pergunta:** Quais são os SSIDs atribuídos a esses rádios?
-  * **Resposta:** `Home_Network`, `Home_Network_5G`.
+  * **Resposta:** `Home_Net`, `Guest`, `Home_Net`,.
 
 * **Etapa 2 - Item f (Segurança Sem Fio):**
   * **Pergunta:** A segurança está ativada para cada um dos rádios? As senhas estão definidas?
-  * **Resposta:** Sim, WPA2-Personal ativado.
+  * **Resposta:** A segurança é ativada para os rádios 2,4 GHz e 5 GHz-2. As senhas são definidas para os rádios. A segurança não está definida para o rádio de 5 GHz-1.
 
 * **Etapa 2 - Item g (Rede de Convidados - Guest Network):**
   * **Pergunta:** A rede Guest está ativa? Em caso afirmativo, em qual rádio?
